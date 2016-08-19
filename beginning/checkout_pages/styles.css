@@ -1,0 +1,39 @@
+html, body {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('lake.jpeg');
+    background-size: cover;
+    z-index: -1;
+}
+
+.inner-container {
+    height: 50%;
+    width: 70%;
+    background-color: #F4F4F4;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 0;
+}
+
+.price-display {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: #F0E5C9;
+    z-index: 1;
+}
+
+.price {
+    position: absolute;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
