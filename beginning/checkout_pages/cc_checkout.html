@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your next adventure is waiting</title>
+    <title>Book your next adventure</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
     <div class="container">
-        <div class="inner-container">
-            <div class="price-display"></div>
-                <span class="price">$45</span>
+        <div class="modal-container">
+            <div class="one-third-modal">
+                <span class="display-price">$45</span>
+            </div>
+            <div class="two-third-modal">
+                <span class="headline">Card Details</span>
+                <span class="sub-headline">Enter your debit or credit card details</span>
+                <form class="rounded-form">
+                    <input class="full-input" type="number" placeholder=" Card Number"><br/>
+                    <input class="left-half-input" type="text" placeholder=" Expiry mm/yy">
+                    <input class="right-half-input" type="text" placeholder=" Security code"><br/>
+                    <input class="submit-button" type="submit" value="Let's Book!">
+                </form>
+            </div>
         </div>
     </div>
 </body>

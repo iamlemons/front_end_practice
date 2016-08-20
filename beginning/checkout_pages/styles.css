@@ -1,39 +1,124 @@
-html, body {
-    position: relative;
-    height: 100%;
-    width: auto;
-}
-
 .container {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('lake.jpeg');
-    background-size: cover;
     z-index: -1;
+
+    background-image: url("lake.jpeg");
+    background-size: cover;
 }
 
-.inner-container {
-    height: 50%;
-    width: 70%;
-    background-color: #F4F4F4;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 0;
-}
-
-.price-display {
+.modal-container {
     position: relative;
-    width: 25%;
-    height: 100%;
-    background-color: #F0E5C9;
-    z-index: 1;
+    height: 47%;
+    width: 50%;
+    z-index: 0;
+
+    top: 25%;
+    left: 25%;
 }
 
-.price {
+.one-third-modal {
     position: absolute;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    height: 100%;
+    width: 33%;
+    z-index: 1;
+
+    text-align: center;
+
+    background-color: #ECE5CE;
+}
+
+.two-third-modal {
+    position: absolute;
+    height: 100%;
+    width: 67%;
+    z-index: 1;
+    left: 33%;
+
+    font-family: "Roboto";
+    color: #82837E;
+    background-color: #F1D4AF;
+}
+
+.display-price {
+    position: relative;
+    top: 31%;
+
+    font-family: "Roboto";
+    font-size: 48px;
+    color: #75A4C7;
+}
+
+.headline {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 30px;
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.sub-headline {
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 30px;
+
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.full-input {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 30px;
+    width: 80%;
+    z-index: 2;
+
+    line-height: 24px;
+    border-radius: 5px;
+
+    font-size: 18px;
+}
+
+.left-half-input {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+    width: 35%;
+    z-index: 2;
+
+    line-height: 24px;
+    border-radius: 5px;
+
+    font-size: 18px;
+}
+
+.right-half-input {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 8%;
+    width: 35%;
+    z-index: 2;
+
+    line-height: 24px;
+    border-radius: 5px;
+
+    font-size: 18px;
+}
+
+.submit-button {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+    width: 81%;
+    z-index: 2;
+
+    line-height: 36px;
+    border-radius: 5px;
+
+    font-size: 18px;
+
+    background-color: #75A4C7;
+    color: #FFFFFF;
 }
