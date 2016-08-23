@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-container {
+    height: 100%;
+    width: 100%;
+
+    background-image: url('rpi.png');
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+
+    position: absolute;
+    z-index: 0;
+}
+
+.text-container {
+    top: 40px;
+    left: 30%;
+    width: 40%;
+
+    position: absolute;
+    z-index: 2;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Martel', serif;
+}
+
+.headline {
+    top: 60px;
+    position: relative;
+
+    font-size: 36px;
+}
+
+.sub-headline {
+    top: 80px;
+    position: relative;
+
+    font-size: 24px;
+    font-style: italic;
+}
+
+.product-features {
+    top: 90px;
+    position: relative;
+
+    font-size: 20px;
+}
+
+.product-features li {
+    margin: 0 0 10px 0;
+
+    text-align: left;
+    list-style: inside url('rpi-icon.png');
+}
+
+button {
+    height: 60px;
+    width: 20%;
+    bottom: 150px;
+    left: 40%;
+
+    float: right;
+    position: absolute;
+
+    border-radius: 10px;
+
+    background-color: rgb(182, 38, 54);
+    border: none;
+
+    font-size: 22px;
+    font-family: 'Martel', serif;
+    color: #ffffff;
+}
