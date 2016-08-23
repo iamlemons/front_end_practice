@@ -10,7 +10,7 @@ html, body {
     height:100%;
     background-image: url("good_design.jpg");
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.4;
     z-index: 1;
 }
 
