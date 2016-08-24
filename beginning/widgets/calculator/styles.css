@@ -1,0 +1,80 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    background-color: #FAFAFA;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+
+    text-align: center;
+}
+
+.app-container {
+    display: inline-block;
+    position: relative;
+    top: 20%;
+
+    height: 60%;
+    width: 25%;
+    min-height: 400px;
+    min-width: 300px;
+
+    background-color: #E36E06;
+
+    font-family: "Black Ops One";
+}
+
+.result-window {
+    position: relative;
+    top: 5%;
+    left: 5%;
+
+    width: 90%;
+    height: 15%;
+
+    color: #E36E06;
+    background-color: #000000;
+    text-align: right;
+    font-size: 52px;
+    text-indent: 10px;
+    direction: rtl;
+}
+
+.button-region {
+    display: inline-block;
+    position: relative;
+
+    padding-top: 15%;
+}
+
+button {
+    font-family: "Black Ops One";
+    font-size: 16px;
+}
+
+.short-button {
+    position: relative;
+
+    height: 13%;
+    width: 20%;
+
+    text-align: center;
+    margin: 1px;
+
+    background-color: #FFFFFF;
+    color: #595959;
+}
+
+.long-button {
+    position: relative;
+
+    height: 13%;
+    width: 42%;
+
+    text-align: center;
+
+    background-color: #FFFFFF;
+    color: #595959;
+}
